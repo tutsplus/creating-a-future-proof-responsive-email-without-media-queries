@@ -55,13 +55,8 @@ a {
 }
 .full-width-image img {
 	width: 100%;
+	max-width: 600px;
 	height: auto;
-	/*display: block;*/
-}
-
-/* Windows Phone Viewport Fix */
-@-ms-viewport { 
-	width: device-width; 
 }
 
 /* One column layout */
@@ -90,6 +85,7 @@ a {
 }
 .two-column img {
 	width: 100%;
+	max-width: 280px;
 	height: auto;
 }
 .two-column .text {
@@ -111,6 +107,7 @@ a {
 }
 .three-column img {
 	width: 100%;
+	max-width: 180px;
 	height: auto;
 }
 .three-column .contents {
@@ -120,7 +117,6 @@ a {
 .three-column .text {
 	padding-top: 10px;
 }
-
 
 /* Left sidebar layout */
 .left-sidebar {
@@ -137,6 +133,11 @@ a {
 }
 .left-sidebar .right {
 	max-width: 500px;
+}
+.left-sidebar .img {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
 }
 .left-sidebar .contents {
 	font-size: 14px;
@@ -162,6 +163,11 @@ a {
 .right-sidebar .right {
 	max-width: 500px;
 }
+.right-sidebar .img {
+	width: 100%;
+	max-width: 80px;
+	height: auto;
+}
 .right-sidebar .contents {
 	font-size: 14px;
 	text-align: center;
@@ -174,6 +180,9 @@ a {
 @media screen and (max-width: 400px) {
 	.two-column .column,
 	.three-column .column {
+		max-width: 100% !important;
+	}
+	.two-column img {
 		max-width: 100% !important;
 	}
 	.three-column img {
