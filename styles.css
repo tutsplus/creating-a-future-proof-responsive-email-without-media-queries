@@ -1,8 +1,7 @@
 /* Basics */
 body {
-	Margin: 0;
+	margin: 0 !important;
 	padding: 0;
-	min-width: 100%;
 	background-color: #ffffff;
 }
 table {
@@ -16,6 +15,9 @@ td {
 img {
 	border: 0;
 }
+div[style*="margin: 16px 0"] { 
+	margin:0 !important;
+}
 .wrapper {
 	width: 100%;
 	table-layout: fixed;
@@ -24,6 +26,7 @@ img {
 }
 .webkit {
 	max-width: 600px;
+	margin: 0 auto;
 }
 .outer {
 	Margin: 0 auto;
