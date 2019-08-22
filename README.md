@@ -1,5 +1,5 @@
-### Tuts+ Tutorial: Creating a Future-Proof Responsive Email Without Media Queries
-#### Instructor: Nicole Merlin
+## Tuts+ Tutorial: Creating a Future-Proof Responsive Email Without Media Queries
+### Instructor: Nicole Merlin
 
 Using this ‘fluid hybrid’ method you can build an HTML email with lots of different layouts that doesn't rely on media queries to look great on mobile devices.
 
