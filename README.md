@@ -7,4 +7,4 @@ Source files for the Tuts+ tutorial: [Creating a Future-Proof Responsive Email W
 
 **Originally written June 2015, updated December 2020**
 
-[View the demo](http://tutsplus.github.io/creating-a-future-proof-responsive-email-without-media-queries/index.html)
+[View the demo](https://tutsplus.github.io/creating-a-future-proof-responsive-email-without-media-queries/index.html)
